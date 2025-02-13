@@ -57,13 +57,15 @@ const messages = [
     "Are you sure?",
     "Really sure??",
     "Are you positive?",
-    "Pookie please...",
+    "Pookie please...🥺",
     "Just think about it!",
+    "No doubts at all...? ",
     "If you say no, I will be really sad...",
     "I will be very sad...",
     "I will be very very very sad...",
     "Ok fine, I will stop asking...",
     "Just kidding hehe, say yes please! ❤️",
+    "you 100% sure...?",
     "Please BUB...."
     
 ];
@@ -76,7 +78,7 @@ function handleNoClick() {
     noButton.textContent = messages[messageIndex];
     messageIndex = (messageIndex + 1) % messages.length;
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
-    yesButton.style.fontSize = `${currentSize * 1.5}px`;
+    yesButton.style.fontSize = `${currentSize * 1.4}px`;
 }
 
 function handleYesClick() {
