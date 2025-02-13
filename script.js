@@ -64,8 +64,8 @@ const messages = [
     "I will be very sad...",
     "I will be very very very sad...",
     "Ok fine, I will stop asking...",
-    "Just kidding hehe, say yes please! ❤️",
-    "you 100% sure...?",
+    "Just kidding hehe, say yes please! 🤍",
+    "You 100% sure...?",
     "Please BUB...."
     
 ];
